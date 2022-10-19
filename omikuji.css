@@ -1,0 +1,16 @@
+* {
+  margin: o;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#disp {
+  font-size: 100px;
+}
