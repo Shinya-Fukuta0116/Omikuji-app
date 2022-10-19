@@ -23,7 +23,15 @@
 
     btn.addEventListener("click", function () {
       let num = Math.floor(Math.random() * omikuji_items.length);
-      disp.innerHTML = omikuji_items[num];
+      let result = omikuji_items[num];
+      disp.innerHTML = result;
+      if (result == "大吉") {
+        alert("おめでとう");
+      } else if (result == "凶") {
+        alert("気にするな");
+      } else {
+        alert("悪くない")
+      }
     })
   </script>
 </body>
